@@ -1,0 +1,15 @@
+@keyframes pulse {
+  0% {
+    background-color: #FFFFFF; /* Cor inicial */
+  }
+  50% {
+    background-color: #FF0000; /* Cor intermediária */
+  }
+  100% {
+    background-color: #FFFFFF; /* Cor final */
+  }
+}
+
+.news {
+  animation: pulse 2s infinite;
+}
